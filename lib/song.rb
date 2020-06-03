@@ -61,7 +61,8 @@ end
 def self.create_from_filename(filename)
   self.new_from_filename(filename)
   binding.pry
-  new_song = self.new_from_filename(filename).song
+  new_song = self.new 
+  new_song.name = self.new_from_filename(filename)
   
   
 end
