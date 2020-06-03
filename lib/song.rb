@@ -60,6 +60,8 @@ end
 
 def self.create_from_filename(filename)
   self.new_from_filename(filename)
+  new_song = self.new 
+  
   
 end
 end
